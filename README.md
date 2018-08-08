@@ -39,6 +39,24 @@ make
 ```
 Now, you should see the executable in the build file.
 
+## Usage instructions
+The program has three main functionalities:
+* generate all possible 2x2 sudokus and solve them
+```
+./sudoku 2
+```
+* generate a 3x3 sudoku with custom difficulty
+```
+./sudoku 3 generate easy
+```
+or
+```
+./sudoku 3 generate medium
+```
+or
+```
+./sudoku 3 generate hard
+```
 ## Built With
 
 * [OpenMP](https://www.openmp.org/) - used for creating multiple threads for the tasks (pixel color calculation)
